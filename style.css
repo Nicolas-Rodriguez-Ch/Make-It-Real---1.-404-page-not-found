@@ -1,3 +1,31 @@
 * {
-    font-family: 'Neucha', cursive;
+    font-family: 'Space Mono', monospace;
+}
+.header {
+    padding: 15px;
+    padding-left: 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.img {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 75px;
+    padding-right: 0px;
+}
+img {
+    width: 100%;
+    margin-right: 0%;
+}
+.messages {
+    justify-content: space-between;
+    align-content: left;
+    margin-top: 75px;
+    margin-right: 285px;
+}
+button {
+    color: white;
+    background-color: #4F4F4F;
 }
