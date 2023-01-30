@@ -1,4 +1,4 @@
-Make It Real - 404 pago not found
+Make It Real - 404 page not found
 
 Esta es una solución al proyecto de Pagina 404 del programa de Make It Real, 
 
