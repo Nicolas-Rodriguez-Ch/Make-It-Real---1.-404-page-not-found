@@ -1,3 +1,18 @@
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+}
+button {
+    color: white;
+    background-color: #333333;
+    padding: 20px;
+    border: none;
+}
+img {
+    width: 100%;
+    margin-right: 0%;
+}
+
 * {
     font-family: 'Space Mono', monospace;
 }
@@ -12,20 +27,54 @@
 .img {
     justify-content: space-between;
     align-items: center;
-    margin-left: 75px;
-    padding-right: 0px;
-}
-img {
-    width: 100%;
-    margin-right: 0%;
 }
 .messages {
     justify-content: space-between;
     align-content: left;
-    margin-top: 75px;
-    margin-right: 285px;
 }
-button {
-    color: white;
-    background-color: #4F4F4F;
+.messages > p {
+    font-size: 24px;
+    color:  #4F4F4F;
+    line-height: 35px;
+}
+@media (max-width: 375px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .img{
+        margin: 5%;
+        padding: 15px, 0px, 0px, 0px;
+    }
+    .messages > h1 {
+        line-height: 60px;
+        font-size: 45px;
+        word-spacing: 15px;
+        padding-left: 10px;
+    }
+    .messages>p {
+        width: 85%;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    button {
+        margin-bottom: 100px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1440px) {
+    .img {
+        margin-left: 75px;
+        padding-right: 75px;
+        padding-top: 175px;
+    }
+    .messages {
+        margin-top: 75px;
+        margin-right: 285px;
+    }
+    .messages>p {
+        width: 65%;
+        margin-bottom: 50px;
+    }
 }
